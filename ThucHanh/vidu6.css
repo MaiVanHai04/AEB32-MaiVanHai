@@ -1,0 +1,14 @@
+.parrent{
+  display: flex;
+}
+.column__left{
+  flex: 0.5;
+  color: red;
+  background-color: blue;
+}
+.column__right{
+  flex: 0.5;
+  color: blue;
+  background-color: red;
+}
+

@@ -1,0 +1,50 @@
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.4cm;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  background-color: darkgray;
+}
+.header {
+  color: green;
+  background-color: white;
+  line-height: 2cm;
+}
+.nav__menu {
+  color: green;
+  background-color: white;
+  line-height: 2cm;
+  margin-top: 0.2cm;
+}
+.content {
+  display: flex;
+  margin-top: 0.2cm;
+}
+.content__left {
+  color: green;
+  background-color: white;
+  line-height: 8cm;
+  flex: 0.3;
+}
+.content__right {
+  color: green;
+  background-color: white;
+  line-height: 8cm;
+  flex: 0.3;
+}
+.main__content {
+  color: green;
+  background-color: white;
+  line-height: 8cm;
+  flex: 0.8;
+  margin-left: 0.2cm;
+  margin-right: 0.2cm;
+}
+.footer {
+  color: green;
+  background-color: white;
+  line-height: 2cm;
+  margin-top: 0.2cm;
+}

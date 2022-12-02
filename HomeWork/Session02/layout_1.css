@@ -1,0 +1,44 @@
+.wrapper {
+  width: 300px;
+  margin: 0px auto;
+}
+.header {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+.nav {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+.main__content {
+  display: flex;
+}
+.content__1 {
+  width: 70%;
+}
+.content__2 {
+  width: 30%;
+  color: white;
+  background-color: black;
+  text-align: center;
+  height: 138.31px;
+}
+.section {
+  color: white;
+  background-color: black;
+  text-align: center;
+  width: 270px;
+}
+.article {
+  color: white;
+  background-color: black;
+  text-align: center;
+  width: 270px;
+}
+.footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+}

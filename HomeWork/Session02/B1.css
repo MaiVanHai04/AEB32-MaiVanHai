@@ -1,0 +1,31 @@
+.parrent {
+  width: 697.5px;
+  margin: 0 auto;
+}
+.date {
+  font-size: 13px;
+  font-family: Arial "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.header__one {
+  color: rgb(160, 30, 30);
+  font-size: 15px;
+  font-family: Arial "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.content__one {
+  text-align: justify;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header__two {
+  color: rgb(160, 30, 30);
+  font-size: 13px;
+  font-family: Arial "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.content__two {
+  text-align: justify;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.images {
+  width: 697.5px;
+}

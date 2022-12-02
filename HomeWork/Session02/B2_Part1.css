@@ -1,0 +1,48 @@
+.parrent {
+  width: 1104px;
+  height: 2038px;
+}
+.header {
+  color: rgb(194, 37, 37);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.main__content {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header__content {
+  color: rgb(194, 37, 37);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.title__1 {
+  color: rgb(194, 37, 37);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.text__1 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.title__2 {
+  color: rgb(194, 37, 37);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.text__2 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.title__3 {
+  color: rgb(194, 37, 37);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.text__3 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
