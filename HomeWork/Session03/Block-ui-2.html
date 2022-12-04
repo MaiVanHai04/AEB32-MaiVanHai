@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Block-ui-2</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: whitesmoke;
+    }
+    .parrent {
+      margin: 50px;
+      border: gray;
+      width: 1249px;
+    }
+    img {
+      width: 1249px;
+    }
+    .div__border{
+     
+      border-left: solid;
+      border-right: solid;
+      border-bottom: solid;
+      color: silver;
+    }
+    .div__fl {
+      height: 60px;
+      display: flex;
+      background-color: white;
+      
+    }
+    .div__content1 {
+      display: flex;
+      flex: 0.8;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .div__percent1 {
+      display: flex;
+      flex: 0.2;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+  </style>
+  <body>
+    <div class="parrent">
+      <div><img src="./images/Haideptrai.jpg" alt="" /></div>
+      <div class="div__border">
+        <div class="div__fl">
+          <div class="div__content1">
+            <p style="margin-right: 800px">FOLLOWERS</p>
+          </div>
+          <div class="div__percent1">
+            <p
+              style="padding: 10px; background-color: red; border-radius: 10px"
+            >
+              1,200
+            </p>
+          </div>
+        </div>
+        <div class="div__fl"  style="border-top: solid;">
+          <div class="div__content1">
+            <p style="margin-right: 800px">FOLLOWINGS</p>
+          </div>
+          <div class="div__percent1">
+            <p
+              style="padding: 10px; background-color: rgb(0, 174, 255); border-radius: 10px"
+            >
+              1,200
+            </p>
+          </div>
+        </div>
+        <div class="div__fl"  style="border-top: solid;">
+          <div class="div__content1">
+            <p style="margin-right: 800px">MESSAGES</p>
+          </div>
+          <div class="div__percent1">
+            <p
+              style="padding: 10px; background-color: rgb(0, 255, 115); border-radius: 10px"
+            >
+              1,200
+            </p>
+          </div>
+        </div>
+        <div class="div__fl"  style="border-top: solid; color: silver;">
+          <div class="div__content1">
+            <p style="margin-right: 800px">LIKES</p>
+          </div>
+          <div class="div__percent1">
+            <p
+              style="padding: 10px; background-color: rgb(255, 238, 0); border-radius: 10px"
+            >
+              1,200
+            </p>
+          </div>
+        </div>
+        <div class="div__fl"  style="border-top: solid; color: silver;">
+          <div class="div__content1">
+            <p style="margin-right: 800px">COMMENTS</p>
+          </div>
+          <div class="div__percent1">
+            <p
+              style="padding: 10px; background-color: rgb(214, 130, 235); border-radius: 10px"
+            >
+              1,200
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
