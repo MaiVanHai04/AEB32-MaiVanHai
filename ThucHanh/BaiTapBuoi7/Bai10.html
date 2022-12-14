@@ -10,18 +10,15 @@
     <script>
       let N = parseInt(prompt("nhap N"));
       console.log(N);
-      let a = parseInt(prompt("nhap a"));
+      let a = parseInt(prompt("nhap a"));               
       console.log(a);
       let b = parseInt(prompt("nhap b"));
       console.log(b);
-      let tien = 0;
-
-      if (N % 2 === 0) {
-        tien = (N / 2) * b;
+      if (2 * a >= b) {
+        console.log(parseInt(N / 2) * b + (N - parseInt(N / 2) * b) * a);
       } else {
-        tien = ((N - 1) / 2) * b + a;
+        console.log(N * a);
       }
-      console.log(tien);
     </script>
   </body>
 </html>
