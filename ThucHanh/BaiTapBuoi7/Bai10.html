@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let N = parseInt(prompt("nhap N"));
+      console.log(N);
+      let a = parseInt(prompt("nhap a"));
+      console.log(a);
+      let b = parseInt(prompt("nhap b"));
+      console.log(b);
+      let tien = 0;
+
+      if (N % 2 === 0) {
+        tien = (N / 2) * b;
+      } else {
+        tien = ((N - 1) / 2) * b + a;
+      }
+      console.log(tien);
+    </script>
+  </body>
+</html>

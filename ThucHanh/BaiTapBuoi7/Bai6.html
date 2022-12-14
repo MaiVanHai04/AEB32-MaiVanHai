@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let n = parseInt(prompt("nhap n"));
+      console.log(n);
+      let m = parseInt(prompt("nhap m"));
+      console.log(m);
+
+      if (m === 0 || n === 0) {
+        console.log("p = " + (m + n));
+      } else {
+        while (n != m) {
+          if (n > m) {
+            n = n - m;
+          } else {
+            m = m - n;
+          }
+        }
+        console.log("p = " + n);
+      }
+    </script>
+  </body>
+</html>
